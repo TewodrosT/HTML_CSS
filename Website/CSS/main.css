@@ -1,0 +1,153 @@
+html, body {
+	font-family: open-sans, sans-serif;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+	height:100%;
+	width:100%;
+}
+#wrapper {
+	min-height:100%;
+	width:100%;
+	position:relative;
+	margin-bottom:-110px;
+}
+.navbar{
+	background-color: #333;
+	color: #fff;
+	position: fixed;
+	width:100%;
+	z-index:99;
+	height:110px;
+}
+.logo{
+	
+	width:100px;
+	height:100px;
+	padding-left: 10px;
+	font-weight: 600;
+}
+.navigation{
+	
+	list-style-type: none;
+	
+
+}
+.navigation li{
+	display: inline-block;
+	padding-left: 10px;
+	padding-top: 10px;
+
+}
+.navigation a:hover{
+	background:#fff;
+	color:#000;
+}
+#active{
+	background:#fff;
+	color:#000;
+}
+
+.btn {
+	color: #fff;
+	font-size:15px;
+	background:transparent;
+	border-width:0px;
+}
+.header h1 h2 p{
+	float: left;
+} 
+
+.ted{
+	width:320px;
+	height:320px;
+	float: right;
+	display:block;
+	clear:both;
+
+}
+.header{
+	padding-top:120px;
+	padding-bottom: 5px;
+	background-size:cover;
+	/*min-height: 100%;*/
+	display:block;
+	/*background-size:cover;*/
+
+}
+
+.jumbotron {
+	background-image: url(../images/jumbotron.jpg);
+	background-size: cover;
+	text-align: center;
+	height:700px;
+	
+	/*background-image: url("https://hd.unsplash.com/photo-1460388052839-a52677720738") height="300px" width="100%";*/
+
+}
+.profile {
+	
+	min-height:100%;
+	display:block;
+	
+}
+.jumbotron h2{
+	font-style:italic;
+	padding-top: -20px;
+}
+.main{
+	background-color: #ffc200;
+	/*margin-top: 10px;*/
+	font-style: italic;
+	
+}
+.sample_pages{
+	text-align: center;
+}
+
+.portfolio {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left:5px;
+	margin-right:5px:
+}
+
+.footer .btn {
+	color:#fff;
+}
+.footer ul li{
+	list-style-type: none;
+	text-decoration: none;
+}
+.footer a{
+	text-decoration: none;
+	color:#E8E5D1;
+}
+.footer a:hover{
+	color: #ffc200;
+}
+.footer{
+	background-color: #333;
+	clear:both;
+	position:absolute;
+    	margin-bottom:0px;
+    	width:100%;
+    	
+    	    	
+}
+
+.footer, .wrapper:after {
+  height: 110px; 
+}
+
+.footer p{
+	color: #E8E5D1;
+	margin-top:0px;
+}
+
+.title {
+	font-size: 20px;
+	margin-bottom: 10px;
+	color:#E8E5D1;
+}
+
